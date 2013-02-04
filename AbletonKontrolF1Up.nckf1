@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ni-controller-midi-map version="1">
+
+  <midi-map name="AbletonKontrolF1Up" port="internal" type="TraktorKontrolF1">
+    <shiftmode>0</shiftmode>
+    <controls/>
+    <pages>
+      <current_index>0</current_index>
+      <page name="Basic">
+        <button id="Sync">
+          <note>22</note>
+          <channel>8</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Quant">
+          <note>13</note>
+          <channel>1</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Capture">
+          <note>13</note>
+          <channel>8</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Reverse">
+          <note>0</note>
+          <channel>1</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Type">
+          <note>35</note>
+          <channel>11</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Size">
+          <note>106</note>
+          <channel>11</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Browse">
+          <note>107</note>
+          <channel>11</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Mute1">
+          <controller>60</controller>
+          <channel>0</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Mute2">
+          <controller>61</controller>
+          <channel>0</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Mute3">
+          <controller>62</controller>
+          <channel>0</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Mute4">
+          <controller>63</controller>
+          <channel>0</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel id="DialTurn">
+          <controller mode="comp">105</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <wrap>on</wrap>
+        </wheel>
+        <button id="DialPush">
+          <controller>106</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob id="Filter1">
+          <controller>2</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Filter2">
+          <controller>3</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Filter3">
+          <controller>4</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Filter4">
+          <controller>3</controller>
+          <channel>11</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Volume1">
+          <controller>0</controller>
+          <channel>11</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Volume2">
+          <controller>7</controller>
+          <channel>7</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Volume3">
+          <controller>7</controller>
+          <channel>8</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Volume4">
+          <controller>8</controller>
+          <channel>7</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="7Segment">
+          <controller>2</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button id="PadA1">
+          <controller>0</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadA2">
+          <controller>1</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadA3">
+          <controller>2</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadA4">
+          <controller>3</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadB1">
+          <controller>4</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadB2">
+          <controller>5</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadB3">
+          <controller>6</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadB4">
+          <controller>7</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadC1">
+          <controller>8</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadC2">
+          <controller>9</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadC3">
+          <controller>10</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadC4">
+          <controller>11</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadD1">
+          <controller>12</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadD2">
+          <controller>13</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadD3">
+          <controller>14</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadD4">
+          <controller>15</controller>
+          <channel>2</channel>
+          <off>1</off>
+          <on>127</on>
+          <wrap>on</wrap>
+          <behavior>increment</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led id="PadA1H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278213247" color-on="4286513152" color-type="1"/>
+          </display>
+          <controller>0</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA1S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>0</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA1B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>0</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA2H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>1</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA2S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>1</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA2B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>1</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA3H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>2</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA3S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>2</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA3B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>2</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA4H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>3</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA4S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>3</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA4B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>3</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB1H">
+          <display type="0">
+            <unit color-mode="2" color-off="4286513152" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>4</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB1S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>4</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB1B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>4</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB2H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>5</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB2S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>5</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB2B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>5</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB3H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>6</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB3S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>6</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB3B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>6</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB4H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>7</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB4S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>7</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB4B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>7</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC1H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>8</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC1S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>8</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC1B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>8</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC2H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>9</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC2S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>9</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC2B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>9</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC3H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>10</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC3S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>10</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC3B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>10</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC4H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>11</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC4S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>11</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC4B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>11</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD1H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>12</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD1S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>12</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD1B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>12</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD2H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>13</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD2S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>13</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD2B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>13</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD3H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>14</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD3S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>14</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD3B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>14</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD4H">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>15</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD4S">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>15</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD4B">
+          <display type="0">
+            <unit color-mode="2" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>15</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+      </page>
+      <page name="Shift">
+        <button id="Sync">
+          <controller>51</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Quant">
+          <controller>52</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Capture">
+          <controller>53</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Reverse">
+          <controller>54</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Type">
+          <controller>55</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Size">
+          <controller>56</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Browse">
+          <controller>57</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Mute1">
+          <controller>74</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Mute2">
+          <controller>75</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Mute3">
+          <controller>76</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="Mute4">
+          <controller>77</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel id="DialTurn">
+          <controller>78</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button id="DialPush">
+          <controller>79</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob id="Filter1">
+          <controller>43</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Filter2">
+          <controller>44</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Filter3">
+          <controller>45</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Filter4">
+          <controller>46</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Volume1">
+          <controller>47</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Volume2">
+          <controller>48</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Volume3">
+          <controller>49</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="Volume4">
+          <controller>50</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob id="7Segment">
+          <controller>78</controller>
+          <channel>12</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button id="PadA1">
+          <controller>58</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadA2">
+          <controller>59</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadA3">
+          <controller>60</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadA4">
+          <controller>61</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadB1">
+          <controller>62</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadB2">
+          <controller>63</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadB3">
+          <controller>64</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadB4">
+          <controller>65</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadC1">
+          <controller>66</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadC2">
+          <controller>67</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadC3">
+          <controller>68</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadC4">
+          <controller>69</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadD1">
+          <controller>70</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadD2">
+          <controller>71</controller>
+          <channel>10</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadD3">
+          <controller>72</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button id="PadD4">
+          <controller>73</controller>
+          <channel>12</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led id="PadA1H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>58</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA1S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>58</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA1B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>58</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA2H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>59</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA2S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>59</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA2B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>59</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA3H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>60</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA3S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>60</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA3B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>60</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA4H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>61</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA4S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>61</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadA4B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>61</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB1H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>62</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB1S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>62</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB1B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>62</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB2H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>63</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB2S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>63</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB2B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>63</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB3H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>64</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB3S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>64</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB3B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>64</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB4H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>65</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB4S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>65</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadB4B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>65</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC1H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>66</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC1S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>66</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC1B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>66</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC2H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>67</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC2S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>67</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC2B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>67</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC3H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>68</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC3S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>68</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC3B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>68</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC4H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>69</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC4S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>69</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadC4B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>69</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD1H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>70</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD1S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>70</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD1B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>70</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD2H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>71</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD2S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>71</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD2B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>71</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD3H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>72</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD3S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>72</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD3B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>72</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD4H">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286513279" color-type="1"/>
+          </display>
+          <controller>73</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD4S">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>73</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led id="PadD4B">
+          <display type="0">
+            <unit color-mode="0" color-off="4278714880" color-on="4286522112" color-type="1"/>
+          </display>
+          <controller>73</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+      </page>
+    </pages>
+  </midi-map>
+
+</ni-controller-midi-map>
