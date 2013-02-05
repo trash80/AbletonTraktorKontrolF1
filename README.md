@@ -4,7 +4,7 @@ AbletonTraktorKontrolF1
 Ableton Remote MIDI Python Scripts for NI Traktor Kontrol F1
 
 This was a weekend project originally based on the Launchpad's decompiled source.
-F1's RGB buttons (full REGB clip support) are mapped to Ableton's session view matrix 
+F1's RGB buttons (full colored clip support) are mapped to Ableton's session view matrix 
 and the Click Encoder is setup for navigation. The bottom row of buttons are mapped 
 to stop clips in the track range using the Kontrol F1 Up template in the NI controller 
 editor or they are mapped as scene launch buttons using the Kontrol F1 Side template.
