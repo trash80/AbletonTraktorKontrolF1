@@ -30,5 +30,5 @@ Midi map:
 - Scene Launch buttons are on Channels 1 using CC: 56,57,58,59
 - Stop Launch buttons are on Channels 1 using CC: 60,61,62,63
 - Navigation encoder expects to be on Channel 1 using CC: 105
-- Toggling left or down on navigation (the push button on the encoder) is on Channel 1
+- Toggling left/right or up/down on navigation (by pushing down the encoder) is on Channel 1
 using CC: 106
