@@ -21,7 +21,7 @@ Installation
 
 Mappings
 =======================
-This package comes with 2 templates. The first is a standard "up" view and works as expected. The second "Side" view is meant for hte F1 to be viewed sideways- Sliders & knobs to the left, grid to the right. It makes sense for taking advantage of the scene launch buttons.
+This package comes with 2 templates. The first is a standard "up" view and works as expected- View the unit from top to bottom- Track Clip stops are assigned to the bottom 4 buttons. The second "Side" view is meant for the F1 to be viewed sideways- Sliders & knobs to the left, grid to the right. It makes sense for taking advantage of the scene launch buttons which are assign to the F1's skinny bottom buttons.
 
 All other controls not listed can be remapped  / assigned to whatever.
 
