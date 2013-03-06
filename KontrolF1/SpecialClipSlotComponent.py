@@ -12,9 +12,10 @@ class SpecialClipSlotComponent(ClipSlotComponent):
 
     def update(self): #needs to be re-checked...
         self._has_fired_slot = False
+        button = self._launch_button_value_slot.subject
         if self._allow_updates:
-            if (self.is_enabled() and (self._launch_button != None)):
-                value_to_send = [-1,-1,-1]
+            if (self.is_enabled() and button != None):
+                value_to_send = [0,0,0]
                 if (self._clip_slot != None):
                     if self.has_clip():
                         self.color = self.to_hsv(self._clip_slot.clip.color)
@@ -43,10 +44,7 @@ class SpecialClipSlotComponent(ClipSlotComponent):
                         #    value_to_send = [self.color[0],self.color[1],120]
                     elif self._clip_slot.controls_other_clips:
                         value_to_send = [84, 50, 30]
-                if (value_to_send[0] > -1):
-                    self._launch_button.send_value(value_to_send)
-                else:
-                    self._launch_button.turn_off()
+                button.send_value(value_to_send)
         else:
             self._update_requests += 1
         return None
