@@ -1,5 +1,4 @@
 # emacs-mode: -*- python-*-
-import Live
 from KontrolF1 import KontrolF1
 
 def create_instance(c_instance):

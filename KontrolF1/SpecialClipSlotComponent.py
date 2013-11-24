@@ -12,7 +12,7 @@ class SpecialClipSlotComponent(ClipSlotComponent):
 
     def update(self): #needs to be re-checked...
         self._has_fired_slot = False
-        button = self._launch_button_value_slot.subject
+        button = self._launch_button_value.subject
         if self._allow_updates:
             if (self.is_enabled() and button != None):
                 value_to_send = [0,0,0]
